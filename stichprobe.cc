@@ -1,4 +1,4 @@
-//Program to find the mean, variance, std. deviation of a given sample
+//Program to compute the mean, variance, std. deviation of a given sample
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -12,7 +12,7 @@ double readfile_mean(std::string dataname_in){
     while(infile>>a){
         mean+=a;
         i+=1;
-        
+
 
     }
     mean=mean/i;
